@@ -8,6 +8,10 @@
 //referance(non primative)
 
 //array,object,functions
+const id = Symbol('123')
+const anotherId = Symbol('123')
+//console.log ( id == anotherId)
+
 
 const heros =["shaktiman","naagraj","doga"];
 let myObj ={
@@ -16,6 +20,6 @@ let myObj ={
 }
 
  const myFunction = function(){
-    console.log("hellowould")
+    console.log("hellowould");
  }
  console.log(typeof myFunction);
