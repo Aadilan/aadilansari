@@ -61,11 +61,38 @@ const users = [
 
 
 
- console.log(Object.keys(tinderUser))
- console.log(Object.values(tinderUser))
- console.log(Object.entries(tinderUser))
+ //console.log(Object.keys(tinderUser))
+ //console.log(Object.values(tinderUser))
+ //console.log(Object.entries(tinderUser))
  
- console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+ //console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+ //destucture
+
+ const corse = {
+    coursename:"ja in hindi",
+    price:"999",
+    courseInstructor: "aadil"
+ }
+ //console.log(corse.courseInstructor);
+
+ const{courseInstructor:Instructor} = corse
+ console.log(Instructor);
+
+//API
+
+//{
+//    "name"="aadil",
+//    "coursename":"js in hindi",
+//    "price":"free"
+//}
+[
+
+    {},
+    {},
+    {},
+]
 
  
 
