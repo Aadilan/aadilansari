@@ -20,13 +20,13 @@ for (let i = 1; i <=10; i++) {
     }
     
 }
-let myArray = ["flash","batman","superman"]
+//let myArray = ["flash","batman","superman"]
 
-for (let index = 0; index < myArray.length; index++) {
-    const element = myArray[index];
+//for (let index = 0; index < myArray.length; index++) {
+    //const element = myArray[index];
     //console.log(element);
     
-}
+//}
 
 //break and continue
 
@@ -40,12 +40,38 @@ for (let index = 0; index < myArray.length; index++) {
     
 // }
 
-for (let index = 1; index <= 20; index++) {
-    if (index == 5){
-        console.log(`Detected 5`);
-        continue
-    }
+// for (let index = 1; index <= 20; index++) {
+//     if (index == 5){
+//         //console.log(`Detected 5`);
+//         continue
+//     }
     
-    console.log(`value of i is: ${index}`)
+//     //console.log(`value of i is: ${index}`)
     
-}
+// }
+ // while loops
+ let index = 0
+
+ while (index <=10) {
+    console.log(`value of index is : ${index}`);
+
+    index = index +2
+
+    
+ }
+//  let myArray = ["salman","sharukh", "aamir"]
+
+//  let arr = 0
+
+//  while(arr < myArray.length){
+//     console.log(`the value is myArray: ${myArray[arr]}`)
+//     arr++
+//  }
+
+//DO WHILE LOOP
+
+let score = 11
+do{
+    console.log(`the score is : ${score}`)
+    score++
+}while (score <=10)
